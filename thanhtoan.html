@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+<title>Ba đời nhà chủ tịch bán giò</title>
+<link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/3143/3143643.png" type="image/x-icon">
+<!-- CSS only -->
+<link rel="stylesheet" href="./bootstrap/owl.carousel.min.css">
+<!--Slider owlcarousel -->
+<link rel="stylesheet" href="./bootstrap/owl.theme.default.css">
+<link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+<!--Bootstrap -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+<link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top" id="navbar">
+    <div class="container">
+        <!-- các chữ trong thanh đầu -->
+        <a href="#" class="navbar-brand">
+            <!-- logo -->
+            <i class="fas fa-shopping-basket"></i> webshark
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Trang chủ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./sanpham.html">sản phẩm</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./lienhe.html">liên hệ</a>
+                </li>
+            </ul>
+            <!-- icons -->
+            <a href="#" data-bs-toggle="modal" data-bs-target="#search-modal"
+                class="btn btn-brand ms-lg-3 navbar-button">
+                <i class='fas fa-search'></i></a>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#cart-modal"
+                class="btn btn-brand ms-lg-3 navbar-button">
+                <i class='fas fa-shopping-cart'></i></a>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#login-modal"
+                class="btn btn-brand ms-lg-3 navbar-button">
+                <i class='fas fa-user'></i></a>
+        </div>
+ <div class="container" >
+  <h1 align="center">Nhập thông tin người mua hàng</h1>
+  <div align="center">
+    <form name="form1" method="post" action="#">
+      <div class="col-sm-2">
+        <img src="" alt="">
+      </div>
+      <div class="col-sm-8">
+        <div class="form-inline form-group">
+          <label class="col-sm-3 text-left">
+            <b>Tên Người Mua:</b>
+          </label>
+          <input class="form-control col" type="text" name="Hoten" id="Hoten" placeholder="Nhập Họ Tên">
+        </div>
+        <div class="form-inline form-group">
+          <label class="col-sm-3 text left">
+            <b>Email</b>
+          </label>
+          <input class="form-control col" type="email" name="email" id="email" placeholder="Nhập Email...">
+        </div>
+        <div class="form-inline form-group">
+          <label class="col-sm-3 text left">
+            <b>Số Điện Thoại</b>
+          </label>
+          <input class="form-control col" type="text" name="dienthoai" id="dienthoai" placeholder="Nhập Số Điện Thoại" minlength="10" maxlength="10">
+        </div>
+        <div class="form-inline form-group">
+          <label class="col-sm-3 text left">
+            <b>Địa Chỉ</b>
+          </label>
+          <input class="form-control col" type="text" name="diachi" id="diachi" placeholder="Nhập Địa Chỉ">
+          
+        </div>
+        <div class="form-groud form-check">
+          <input type="checkbox" class="form-check-input" id="check-input">
+          <label class="form-check-lable" for="check-input" ></label>
+        </div>
+        
+        <div align="center">
+          <input  class="btn btn-succes" type="submit" name="button" id="button" value="Đồng ý" onclick="return Kiemtra();">
+          <a href="#" class="btn btn-danger">Về Trang Chủ</a>
+        </div>
+      </div>
+      <div class="col-sm-2"></div>
+    </form>
+  </div>
+</div>
+
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="./js/jquery.min.js"></script>
+<script src="./js/slide.js"></script>
+<script src="./js/owl.carousel.js"></script>
+</body>
+</html>
